@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Command configuration",
+            "program": "firebase",
+            "args": ["deploy", "--only", "functions:remoteConfigUpdate"]
+        },
+    ]
+}
