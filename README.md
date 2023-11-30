@@ -32,13 +32,13 @@
 
 ### Screenshots
 
-| New Remote Config                      | New condition                      |
-|----------------------------------------|------------------------------------|
-| ![](screenshots/new-remote-config.png) | ![](screenshots/new-condition.png) |
+| New Remote Config                                                                                                             | New condition                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| ![](screenshots/new-remote-config-light.png#gh-light-mode-only) ![](screenshots/new-remote-config-dark.png#gh-dark-mode-only) | ![](screenshots/new-condition-light.png#gh-light-mode-only) ![](screenshots/new-condition-dark.png#gh-dark-mode-only) |
 
-| Update Remote Config                     | Rollback                      |
-|------------------------------------------|-------------------------------|
-| ![](screenshots/update-rc-condition.png) | ![](screenshots/rollback.png) |
+| Update Remote Config                                                                                                              | Rollback                                                                                                    |
+|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| ![](screenshots/update-rc-condition-light.png#gh-light-mode-only) ![](screenshots/update-rc-condition-dark.png#gh-dark-mode-only) | ![](screenshots/rollback-light.png#gh-light-mode-only) ![](screenshots/rollback-dark.png#gh-dark-mode-only) |
 
 ### Credits
 
