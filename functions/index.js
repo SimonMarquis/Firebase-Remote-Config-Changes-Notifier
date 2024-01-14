@@ -30,7 +30,7 @@ exports.remoteConfigUpdate = onConfigUpdated({secrets: [slackIncomingWebhook]}, 
     });
 
     // Diff Remote Config templates
-    const diff = jsonDiff.diffString(previous, current);
+    const diff = jsonDiff.diffString(previous, current, {maxElisions: 0});
     logger.log("diff", diff);
 
     // Build Slack payload https://api.slack.com/reference/block-kit/blocks

@@ -42,5 +42,6 @@
 
 ### Credits
 
+- [andreyvit/json-diff](https://github.com/andreyvit/json-diff)
 - [firebase/functions-samples/remote-config-diff](https://github.com/firebase/functions-samples/blob/main/Node/remote-config-diff)
 - [eBay/firebase-remote-config-monitor](https://github.com/eBay/firebase-remote-config-monitor)
