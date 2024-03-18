@@ -68,11 +68,12 @@ exports.remoteConfigUpdate = onConfigUpdated({secrets: [slackIncomingWebhook]}, 
     logger.log("payload", payload);
 
     // Send Slack message
-    await fetch(slackIncomingWebhook.value(), {
+    const result = await fetch(slackIncomingWebhook.value(), {
       method: "POST",
       body: JSON.stringify(payload),
       headers: {"Content-Type": "application/json"},
     });
+    logger.log(result);
   } catch (error) {
     logger.error(error);
   }
