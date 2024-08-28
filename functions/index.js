@@ -55,7 +55,7 @@ exports.remoteConfigUpdate = onConfigUpdated({secrets: [slackIncomingWebhook]}, 
           ],
         },
         // Description
-        ...(event.data.description ? [{"type": "context", "elements": [[{"type": "mrkdwn", "text": `*Description*: ${event.data.description}`}]]}] : []),
+        ...(event.data.description ? [{"type": "context", "elements": [{"type": "mrkdwn", "text": `*Description*: ${event.data.description}`}]}] : []),
         // Diff
         ...(diff ? [{"type": "rich_text", "elements": [{"type": "rich_text_preformatted", "elements": [{"type": "text", "text": diff}]}]}] : []),
       ],
