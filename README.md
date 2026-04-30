@@ -14,7 +14,7 @@
 
 1. Install required npm dependencies:
    ```shell
-   npm install
+   cd functions && npm install
    ```
 2. Install [Firebase CLI](https://firebase.google.com/docs/cli)
 3. Setup Firebase project:
