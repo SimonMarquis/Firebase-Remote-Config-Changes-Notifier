@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: npm
     directory: /functions
     schedule:
-      interval: weekly
+      interval: monthly
     groups:
       npm-minor-and-patch:
         applies-to: version-updates
